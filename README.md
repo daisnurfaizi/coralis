@@ -1,4 +1,9 @@
 # CodeIgniter 4 Application Starter
 
-## What is CodeIgniter?
+
+
+## after cloning,
+### 1. edit the env file to .env
+### 2. adjust database configuration
+### 3. run composer install
 
