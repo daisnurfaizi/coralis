@@ -37,10 +37,10 @@ app.baseURL = 'http://localhost:8080/'
 # DATABASE
 #--------------------------------------------------------------------
 
-database.default.hostname = localhost
-database.default.database = coralis
-database.default.username = root
-database.default.password = 
+database.default.hostname = yourdbhost
+database.default.database = yourdbname
+database.default.username = yourusername
+database.default.password = yourpassword
 database.default.DBDriver = MySQLi
 # database.default.DBPrefix =
 
@@ -130,10 +130,3 @@ database.default.DBDriver = MySQLi
 #--------------------------------------------------------------------
 
 # curlrequest.shareOptions = true
-email_config_protocol = 'smtp'
-email_config_SMTPHost = 'smtp.mailtrap.io'
-email_config_SMTPPort = 2525
-email_config_SMTPUser = '2f4297dbe06ffc'
-email_config_SMTPPass = 'e3834c7c4ff539'
-# email_config_senderMail = '2f4297dbe06ffc'
-# email_config_senderName = 'Test Email'

@@ -47,28 +47,28 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPHost = 'smtp.mailtrap.io';
+    public $SMTPHost = 'yoursmtphost';
 
     /**
      * SMTP Username
      *
      * @var string
      */
-    public $SMTPUser = '4ce0869a0dbfbb';
+    public $SMTPUser = 'yoursmtpuser';
 
     /**
      * SMTP Password
      *
      * @var string
      */
-    public $SMTPPass = '91e88e2f7535a7';
+    public $SMTPPass = 'yoursmtppass';
 
     /**
      * SMTP Port
      *
      * @var int
      */
-    public $SMTPPort = 2525;
+    public $SMTPPort = 'yoursmtport';
 
     /**
      * SMTP Timeout (in seconds)
