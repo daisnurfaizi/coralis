@@ -13,7 +13,8 @@
 #### database.default.DBDriver = MySQLi
 ### 3. Configure Email.php 
 #### in app/Config/Email.php
- public $SMTPHost = 'yoursmtphost';
+
+    public $SMTPHost = 'yoursmtphost';
 
     /**
      * SMTP Username
