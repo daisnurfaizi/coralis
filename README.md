@@ -11,6 +11,30 @@
 #### database.default.username = your username
 #### database.default.password =  your password
 #### database.default.DBDriver = MySQLi
+### 3. Configure Email.php 
+#### in app/Config/Email.php
+ public $SMTPHost = 'yoursmtphost';
 
+    /**
+     * SMTP Username
+     *
+     * @var string
+     */
+    public $SMTPUser = 'yoursmtpuser';
+
+    /**
+     * SMTP Password
+     *
+     * @var string
+     */
+    public $SMTPPass = 'yoursmtppass';
+
+    /**
+     * SMTP Port
+     *
+     * @var int
+     */
+    public $SMTPPort = 'yoursmtport';
 ### 3. run composer install
+### 4. run php spark migrate
 
